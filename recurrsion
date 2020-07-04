@@ -1,0 +1,12 @@
+#recurrsion:
+import sys
+sys.setrecursionlimit(300)
+print(sys.getrecursionlimit())
+
+i = 0
+def Bhahubali() :
+    global i
+    i+=1
+    print('katapa', i)
+    Bhahubali()
+Bhahubali()
