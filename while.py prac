@@ -1,1 +1,44 @@
+print('even num in while')
+a = 2
+while(a<=20):
+    print(a)
+    a+=2
 
+print('odd num in while')
+a = 1
+while(a<=20):
+    print(a)
+    a+=2
+print('natural num in while')
+a = 1
+while(a<=20):
+    print(a)
+    a+=1
+print('whole num in while')
+a = 0
+while(a<=20):
+    print(a)
+    a+=1
+print('sqrt num in while')
+a = 1
+while(a<=100):
+    print(a*a)
+    a+=1
+print('7 table upto 7 * 15')
+a = 1
+while(a<=15):
+    print(a*7)
+    a+=1
+print('reverse a 10 natural numbers')
+a = 10
+while a>=1:
+    print(a)
+    a = a-1
+
+a = 13
+while(a>=1):
+    print(a)
+    a=a-1
+
+
+    
