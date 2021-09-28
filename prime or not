@@ -1,0 +1,7 @@
+b = int(input('enter the value of b'))
+while(b%2!=0):
+    print('is prime')
+    b=b+2
+    break
+else:
+    print('not prime')
