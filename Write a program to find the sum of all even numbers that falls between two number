@@ -1,0 +1,12 @@
+q1=12
+q2=44
+if(q1<q2):
+    while(q1<q2):
+        if(q2%2!=0):
+            print(q2)
+        q2=q2-1
+else:
+    while(q1>q2):
+        if(q1%2!=0):
+            print(q1)
+        q1=q1-2
